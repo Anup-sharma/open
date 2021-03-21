@@ -1,0 +1,907 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../assets/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../assets/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../assets/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../assets/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Open-Sans;
+    src: url(../assets/Open_Sans/OpenSans-Regular.ttf);
+}
+.container{
+    width: 1920px;
+    height: 2145px;
+    background: #FCFCFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    /* background-color: #FFFFFF;
+    width: 1920px;
+    height: 200px;
+    
+    margin: -10px 0px 0px -10px */
+}
+.product_txt{
+    position: absolute;
+    top: 68px;
+    left: 1030px;
+    width: 103px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open-Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    cursor: pointer;
+}
+.product_txt:hover{
+    color: #663399;
+}
+.logo_img{
+    position: absolute;
+    top: 27px;
+    left: 120px;
+    width: 123px;
+    height: 123px;
+    background: transparent url('../assets/low_size_image/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.solutions_txt{
+    position: absolute;
+    top: 68px;
+    left: 1183px;
+    width: 108px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open-Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    cursor: pointer;
+}
+.solutions_txt:hover{
+    color: #663399;
+}
+.pricing_txt{
+    position: absolute;
+    top: 68px;
+    left: 1341px;
+    width: 79px;
+    height: 34px;
+    text-align: left;
+    font: normal normal normal 25px/34px Open-Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    cursor: pointer;
+}
+.pricing_txt:hover{
+    color: #663399;
+}
+.login_btn{
+    position: absolute;
+    top: 63px;
+    left: 1480px;
+    width: 118px;
+    height: 45px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+    cursor: pointer;
+}
+.login_btn:hover{
+    background-color: #663399;
+}
+.login_txt{
+    position: absolute;
+    top: 13px;
+    left: 36px;
+    width: 46px;
+    height: 19px;
+    font: normal normal normal 16px/19px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+    cursor: pointer;
+}
+.login_txt:hover{
+    color: #ffffff;
+}
+.get_started_btn{
+    position: absolute;
+    top: 63px;
+    left: 1622px;
+    width: 166px;
+    height: 45px;
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    opacity: 1;
+    cursor: pointer;
+}
+.get_started_btn:hover{
+    background: transparent linear-gradient(90deg, #663399 0%, #663399 100%) 0% 0% no-repeat padding-box;
+}
+.get_started_txt{
+    position: absolute;
+    top: 13px;
+    left: 36px;
+    width: 94px;
+    height: 19px;
+    font: normal normal normal 16px/19px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.small_blob_img{
+    position: absolute;
+    top: 213px;
+    left: -179px;
+    width: 571px;
+    height: 572px;
+    background: transparent url('../assets/low_size_image/blob-small.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.super_txt{
+    position: absolute;
+    top: 270px;
+    left: 189px;
+    width: 407px;
+    height: 98px;
+    font: normal normal normal 40px/49px Montserrat-Medium;
+    text-align: left;
+    letter-spacing: 0px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rectangle3{
+    position: absolute;
+    top: 376px;
+    left: 192px;
+    width: 236px;
+    height: 8px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+}
+.collect_img_vdeo_img{
+    position: absolute;
+    top: 466px;
+    left: 136px;
+    width: 652px;
+    height: 365px;
+    background: transparent url('../assets/low_size_image/collect_img-video.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.accounting_dots_img{
+    position: absolute;
+    top: 796px;
+    left: 462px;
+    width: 430px;
+    height: 70px;
+    background: transparent url('../assets/low_size_image/accounting_dots.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+.right_panel{
+    position: absolute;
+    top: -227.9068603515625px;
+    left: 852px;
+    width: 1071.02px;
+    height: 1060.67px;
+    background: transparent url('../assets/low_size_image/circle.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+.group6_img{
+    position: absolute;
+    top: 270px;
+    left: 1100px;
+    width: 740px;
+    height: 720px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.eligibility_calculator{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 500px;
+    height: 700px;
+    opacity: 1;
+}
+.eligibility_calculator_txt_box{
+    width: 500px;
+    height: 50px;
+    background-color: #FCFCFF;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.eligibility_txt{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    color: #222222;
+    font: normal normal normal 22px/26px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px; 
+}
+.get_money{
+    position: absolute;
+    left: 520px;
+    top: 100px;
+    background-color: #663399;
+    width: 200px;
+    height: 500px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: 1;
+}
+.loan_amnt_txt{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #ffffff;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px; 
+}
+.loan_amnt_number{
+    position: absolute;
+    top: 130px;
+    left: 35px;
+    color: #ffffff;
+    font: normal normal normal 25px/29px Montserrat-Medium;
+    text-align: left;
+    letter-spacing: 0px; 
+}
+.emi_txt{
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    color: #ffffff;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px; 
+}
+.emi_amnt_nmbr{
+    position: absolute;
+    top: 260px;
+    left: 45px;
+    color: #ffffff;
+    font: normal normal normal 25px/29px Montserrat-Medium;
+    text-align: left;
+    letter-spacing: 0px; 
+}
+.get_mont_btn{
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.get_money_txt{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #663399;
+    font: normal normal normal 18px/22px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+}
+.accounting_dots_img_right{
+    position: absolute;
+    top: 936px;
+    left: 1458px;
+    width: 430px;
+    height: 70px;
+    background: transparent url('../assets/low_size_image/accounting_dots.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+.sol_wave_bg_img{
+    position: absolute;
+    top: 1209px;
+    left: 0.0001220703125px;
+    width: 1920px;
+    height: 936px;
+    background: transparent url('../assets/low_size_image/sol_wave_bg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rectangle_copy19{
+    position: absolute;
+    top: 1450px;
+    left: 191px;
+    width: 391px;
+    height: 276px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+.rectangle_copy23{
+    position: absolute;
+    top: 1137px;
+    left: 191px;
+    width: 391px;
+    height: 253px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+.rectangle_copy17{
+    position: absolute;
+    top: 1786px;
+    left: 191px;
+    width: 391px;
+    height: 276px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+.rectangle2{
+    position: absolute;
+    top: 1261px;
+    left: 630px;
+    width: 390px;
+    height: 272px;
+    
+    opacity: 1;
+}
+.rectangle_copy25{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 1593px;
+    left: 630px;
+    width: 390px;
+    height: 253px;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+}
+.path_img{
+    position: absolute;
+    top: 51px;
+    left: 34px;
+    width: 12px;
+    height: 12px;
+    background: transparent url('../assets/low_size_image/Path.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.small_path_img{
+    position: absolute;
+    top: 66px;
+    left: 36px;
+    width: 7px;
+    height: 7px;
+    background: transparent url('../assets/low_size_image/Path_small.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rectangle2_img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.get_paid_img{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 90px;
+    height: 90px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.low_interest_img{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 90px;
+    height: 90px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.secure_pymnts{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 90px;
+    height: 90px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.freelanc_feature_img{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 90px;
+    height: 90px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.covid_img{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 90px;
+    height: 90px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.quick_cash_txt{
+    position: absolute;
+    top: 143px;
+    left: 34px;
+    width: 323px;
+    height: 19px;
+    font: normal normal normal 15px/19px Montserrat-SemiBold;
+    text-align: left;
+    color: #333333;
+    letter-spacing: 0px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.term_loan_txt{
+    position: absolute;
+    top: 173px;
+    left: 34px;
+    width: 323px;
+    height: 38px;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #999999;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.low_interest_txt{
+    position: absolute;
+    top: 143px;
+    left: 34px;
+    width: 323px;
+    height: 19px;
+    font: normal normal normal 15px/19px Montserrat-SemiBold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #333333;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.interest_rate_txt{
+    position: absolute;
+    top: 173px;
+    left: 34px;
+    width: 323px;
+    height: 38px;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #999999;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.zro_ppr_txt{
+    position: absolute;
+    top: 143px;
+    left: 34px;
+    width: 323px;
+    height: 19px;
+    font: normal normal normal 15px/19px Montserrat-SemiBold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #333333;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.bank_statmnt_txt{
+    position: absolute;
+    top: 173px;
+    left: 34px;
+    width: 323px;
+    height: 38px;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #999999;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.finances_txt{
+    position: absolute;
+    top: 143px;
+    left: 34px;
+    width: 323px;
+    height: 19px;
+    font: normal normal normal 15px/19px Montserrat-SemiBold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.manage_bnkng_txt{
+    position: absolute;
+    top: 173px;
+    left: 34px;
+    width: 323px;
+    height: 38px;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.covid_txt{
+    position: absolute;
+    top: 143px;
+    left: 34px;
+    width: 323px;
+    height: 19px;
+    font: normal normal normal 15px/19px Montserrat-SemiBold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #333333;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.zro_emi_txt{
+    position: absolute;
+    top: 173px;
+    left: 34px;
+    width: 323px;
+    height: 38px;
+    font: normal normal normal 15px/19px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #999999;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.boost_business_txt{
+    position: absolute;;
+    top: 1377px;
+    left: 1158px;
+    width: 490px;
+    height: 98px;
+    font: normal normal normal 40px/49px Montserrat-Medium;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #222222;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.line3_img{
+    position: absolute;
+    top: 1528px;
+    left: 1158px;
+    width: 120px;
+    height: 0px;
+    background: transparent url('../assets/low_size_image/Line_3.png') 0% 0% no-repeat padding-box;
+    border: 6px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+}
+.get_hands_on_txt{
+    position: absolute;
+    top: 1561px;
+    left: 1158px;
+    width: 490px;
+    height: 44px;
+    font: normal normal normal 18px/22px Montserrat-Regular;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #777777;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.outln_btn_copy2_img{
+    position: absolute;
+    top: 1686px;
+    left: 1158px;
+    width: 279px;
+    height: 58px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+}
+.open_acnt_txt{
+    position: absolute;
+    top: 18px;
+    left: 34px;
+    width: 198px;
+    height: 22px;
+    font: normal normal normal 18px/22px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+}
+.slidecontainer {
+    position: absolute;
+    top: 95px;
+    width: 90%;
+    left: 15px;
+}
+  
+.slider {
+    position: absolute;
+    top: 75px;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #663399;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #663399;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #663399;
+    cursor: pointer;
+}
+.result_val{
+    position: absolute;
+    top: 0px;
+    font: normal normal normal 30px/34px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.start{
+    position: absolute;
+    top: 190px;
+    left: 15px;
+    font: normal normal normal 19px/23px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #00000033;
+}
+.end{
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    font: normal normal normal 19px/23px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #00000033;
+}
+.mnthly_expense_txt{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    font: normal normal normal 22px/26px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.slidecontainer1 {
+    position: absolute;
+    top: 265px;
+    width: 90%;
+    left: 15px;
+}
+.slider1 {
+    position: absolute;
+    top: 70px;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #663399;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider1:hover {
+    opacity: 1;
+}
+  
+.slider1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #663399;
+    cursor: pointer;
+}
+  
+.slider1::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #663399;
+    cursor: pointer;
+}
+.result_val1{
+    position: absolute;
+    top: 0px;
+    font: normal normal normal 30px/34px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.switch {
+    position: absolute;
+    top: 525px;
+    right: 20px;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider_toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider_toggle:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider_toggle {
+    background-color: #663399;
+}
+  
+input:focus + .slider_toggle {
+    box-shadow: 0 0 1px #663399;
+}
+  
+input:checked + .slider_toggle:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider_toggle.round {
+    border-radius: 34px;
+}
+  
+.slider_toggle.round:before {
+    border-radius: 50%;
+}
+
+.monthly_income_txt{
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    font: normal normal normal 22px/26px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.repayment_txt{
+    position: absolute;
+    top: 400px;
+    left: 15px;
+    font: normal normal normal 22px/26px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.tenure_txt{
+    position: absolute;
+    top: 440px;
+    left: 15px;
+    font: normal normal normal 30px/34px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.drowp_down_img{
+    position: absolute;
+    top: 440px;
+    right: 35px;
+    width: 40px;
+    height: 30px;
+    background: url('../assets/low_size_image/down_arrow.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.underline{
+    position: absolute;
+    top: 480px;
+    left: 15px;
+    width: 90%;
+    height: 2px;
+    background: #00000033;
+}
+.exist_loan_txt{
+    position: absolute;
+    top: 525px;
+    left: 15px;
+    font: normal normal normal 22px/26px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.exixt_emi_txt{
+    position: absolute;
+    top: 580px;
+    left: 15px;
+    font: normal normal normal 22px/26px Montserrat-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.emi_amnt{
+    position: absolute;
+    top: 610px;
+    left: 15px;
+    font: normal normal normal 30px/34px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.underline1{
+    position: absolute;
+    top: 650px;
+    left: 15px;
+    width: 90%;
+    height: 2px;
+    background: #00000033;
+}
