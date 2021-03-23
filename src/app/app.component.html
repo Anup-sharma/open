@@ -1,92 +1,92 @@
 <div class="container">
   <div>
-      <div class="navbar">
+      <div class="navbar" [ngStyle]="navStyle">
           <div class="logo_img"></div>
-          <div class="product_txt">Products</div>
-          <div class="solutions_txt">Solutions</div>
-          <div class="pricing_txt">Pricing</div>
-          <div class="login_btn"><span class="login_txt">Login</span></div>
-          <div class="get_started_btn"><span class="get_started_txt">Get Started</span></div>
+          <div class="product_txt">{{prdct_txt}}</div>
+          <div class="solutions_txt">{{solution_txt}}</div>
+          <div class="pricing_txt">{{pricing_txt}}</div>
+          <div class="login_btn"><span class="login_txt">{{login_txt}}</span></div>
+          <div class="get_started_btn"><span class="get_started_txt">{{get_started_txt}}</span></div>
       </div>
       <div class="small_blob_img"></div>
       <div class="accounting_dots_img"></div>
-      <div class="super_txt">We make it Super Simple</div>
+      <div class="super_txt">{{super_txt}}</div>
       <div class="rectangle3"></div>
       <div class="collect_img_vdeo_img"></div>
       <div class="right_panel"></div>
       <div class="accounting_dots_img_right"></div>
       <div class="group6_img">
           <div class="eligibility_calculator">
-              <div class="eligibility_calculator_txt_box"><span class="eligibility_txt">Eligibility Calculator</span></div>
-              <span class="monthly_income_txt">Monthly Income</span>
+              <div class="eligibility_calculator_txt_box"><span class="eligibility_txt">{{eligibility_txt}}</span></div>
+              <span class="monthly_income_txt">{{monthly_income_txt}}</span>
               <div class="slidecontainer">
-                  <p class="result_val"> <span id="demo"></span></p>
+                  <p class="result_val"> <span id="demo">{{range1}}</span></p>
                   <input type="range" min="0" max="300000" value="0" class="slider" id="myRange">
               </div>
-              <span class="start"> {{100000 | currency:'INR':'symbol'}}</span>
-              <span class="end"> 3,00,000</span>
-              <span class="mnthly_expense_txt">Monthly Expense</span>
+              <span class="start"> {{100000 | currency:'INR':'symbol':'.0'}}</span>
+              <span class="end"> {{300000 | currency:'INR':'symbol':'.0'}}</span>
+              <span class="mnthly_expense_txt">{{mnthly_expense_txt}}</span>
               <div class="slidecontainer1">
                   <p class="result_val1"> <span id="demo1"></span></p>
                   <input type="range" min="0" max="50000" value="0" class="slider1" id="myRange1">
               </div>
-              <span class="repayment_txt">Repayment Tenure</span>
-              <span class="tenure_txt">6 Months</span>
+              <span class="repayment_txt">{{repayment_txt}}</span>
+              <span class="tenure_txt">{{tenure_txt}}</span>
               <span class="drowp_down_img"></span>
               <span class="underline"></span>
-              <span class="exist_loan_txt">Do you have any existing loans?</span>
+              <span class="exist_loan_txt">{{exist_loan_txt}}</span>
               <label class="switch">
                   <input type="checkbox" checked>
                   <span class="slider_toggle round"></span>
               </label>
-              <span class="exixt_emi_txt">EMI of existing loan (optional)</span>
-              <span class="emi_amnt"> {{15000 | currency:'INR':'symbol'}}</span>
+              <span class="exixt_emi_txt">{{exixt_emi_txt}}</span>
+              <span class="emi_amnt"> {{15000 | currency:'INR':'symbol':'.0'}}</span>
               <span class="underline1"></span>
           </div>
           <div class="get_money">
-              <span class="loan_amnt_txt">Loan Amount</span>
-              <span class="loan_amnt_number"> 1,00,000</span>
-              <span class="emi_txt">Your EMI will be</span>
-              <span class="emi_amnt_nmbr"> 15,000</span>
-              <div class="get_mont_btn"><span class="get_money_txt">GET MONEY</span></div>
+              <span class="loan_amnt_txt">{{loan_amnt_txt}}</span>
+              <span class="loan_amnt_number"> {{100000 | currency:'INR':'symbol':'.0'}}</span>
+              <span class="emi_txt">{{emi_txt}}</span>
+              <span class="emi_amnt_nmbr"> {{15000 | currency:'INR':'symbol':'.0'}}</span>
+              <div class="get_mont_btn"><span class="get_money_txt">{{get_money_txt}}</span></div>
           </div>
       </div>
       <div class="sol_wave_bg_img"></div>
       <div>
           <div class="rectangle_copy23">
               <img class="get_paid_img" src="./assets/low_size_image/Get_Paid_Instantly.png" alt="get paid"/>
-              <span class="quick_cash_txt">Quick cash disbursement</span>
-              <span class="term_loan_txt">Get terms loans that your business needs within 72 hrs</span>
+              <span class="quick_cash_txt">{{quick_cash_txt}}</span>
+              <span class="term_loan_txt">{{term_loan_txt}}</span>
           </div>
           <div class="rectangle_copy19">
               <img class="low_interest_img" src="./assets/low_size_image/Low_interest_rate_img.png" alt="Low interest rate"/>
-              <span class="low_interest_txt">Low-interest rate</span>
-              <span class="interest_rate_txt">Achieve your financial goals with an amazing interest rate starting at 13% per annum </span>
+              <span class="low_interest_txt">{{low_interest_txt}}</span>
+              <span class="interest_rate_txt">{{interest_rate_txt}} </span>
           </div>
           <div class="rectangle_copy17">
               <img class="secure_pymnts" src="./assets/low_size_image/Secure_Payments.png" alt="Secure payments"/>
-              <span class="zro_ppr_txt">Zero Paperwork</span>
-              <span class="bank_statmnt_txt">Get started instantly by submitting only your basic details & bank statements</span>
+              <span class="zro_ppr_txt">{{zro_ppr_txt}}</span>
+              <span class="bank_statmnt_txt">{{bank_statmnt_txt}}</span>
           </div>
           <div class="rectangle2">
               <img class="rectangle2_img" src="./assets/low_size_image/Rectangle_2.png" alt="rectangle2"/>
               <img class="freelanc_feature_img" src="./assets/low_size_image/freelancer_feature_icon_6@1.5x.png" alt="Freelance Image"/>
-              <span class="finances_txt">Ace your business finances</span>
-              <span class="manage_bnkng_txt">Manage banking, accounting & everything in between, on one platform</span>
+              <span class="finances_txt">{{finances_txt}}</span>
+              <span class="manage_bnkng_txt">{{manage_bnkng_txt}}</span>
           </div>
           <div class="rectangle_copy25">
               <img class="covid_img" src="./assets/low_size_image/Covid.png" alt="Covid"/>
-              <span class="covid_txt">Loans to fight COVID-19</span>
-              <span class="zro_emi_txt">Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh</span>
+              <span class="covid_txt">{{covid_txt}}</span>
+              <span class="zro_emi_txt">{{zro_emi_txt}}</span>
               <span class="path_img"></span>
               <span class="small_path_img"></span>
           </div>
           
       </div>
       <div>
-          <div class="boost_business_txt">Boost your business with Open</div>
+          <div class="boost_business_txt">{{boost_business_txt}}</div>
           <div class="line3_img"></div>
-          <div class="get_hands_on_txt">Get your hands on a term loan that’s crafted for your business</div>
+          <div class="get_hands_on_txt">{{get_hands_on_txt}}</div>
           <div class="outln_btn_copy2_img"><span class="open_acnt_txt">Get an Open Account</span></div>
       </div>
       

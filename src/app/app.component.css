@@ -27,11 +27,6 @@
 .navbar{
     position: fixed;
     z-index: 1;
-    /* background-color: #FFFFFF;
-    width: 1920px;
-    height: 200px;
-    
-    margin: -10px 0px 0px -10px */
 }
 .product_txt{
     position: absolute;
@@ -99,24 +94,26 @@
     box-shadow: 0px 0px 20px #00000033;
     border: 2px solid #663399;
     border-radius: 24px;
+    color: #663399;
     opacity: 1;
     cursor: pointer;
 }
 .login_btn:hover{
     background-color: #663399;
+    font: normal normal normal 16px/19px Montserrat-Medium;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
 }
 .login_txt{
     position: absolute;
     top: 13px;
     left: 36px;
     width: 46px;
-    height: 19px;
+    height: 45px;
     font: normal normal normal 16px/19px Montserrat-Medium;
     text-align: center;
     letter-spacing: 0px;
-    color: #663399;
-    opacity: 1;
-    cursor: pointer;
 }
 .login_txt:hover{
     color: #ffffff;
